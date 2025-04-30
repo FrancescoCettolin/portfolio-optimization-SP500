@@ -34,7 +34,7 @@ All visual outputs are stored in [`figures/`](figures). Below are the key plots:
 | ![Tangency Portfolio](figures/Portafogli_con_tangente.png) | Weights of the tangency portfolio |
 | ![Constrained Frontiers](figures/Frontiere_vincolate.png) | Efficient frontiers with long-only constraints |
 | ![Covariance Heatmaps](figures/HeatMap_variance_mtx.png) | Sample vs shrinkage vs constant-correlation covariance |
-| ![CAPM vs SPX](figures/Price Stocks vs SPX.png) | Relative price evolution vs S&P 500 |
+| ![CAPM vs SPX](figures/Price_Stocks_vs_SPX.png) | Relative price evolution vs S&P 500 |
 | ![Returns - Log vs Classic](figures/Total_and_Log_returns.png) | Comparison of log and classic returns |
 | ![Black-Litterman Allocations](figures/Portafolgi_diverse_MTX.png) | Portfolio allocation under different assumptions |
 | ![Black-Litterman Weights](figures/Pesi_Portafolgi_risk_free_vincolati.png) | Portfolio weights from Black-Litterman model |
