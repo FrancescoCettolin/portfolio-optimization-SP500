@@ -25,19 +25,33 @@ Scripts are located in [`code/`](code):
 
 ## Figures
 
-All visual outputs are stored in [`figures/`](figures). Below are the key plots:
+The project includes several figures that illustrate the results of portfolio optimization analyses. Below is a categorized overview:
 
-| Image | Description |
-|-------|-------------|
-| ![Frontiera Markowitz](figures/Frontiera_MK.png) | Efficient frontier (Markowitz), Minimum Variance Portfolio |
-| ![Frontiera Risk-Free](figures/Frontiera_risk_free.png) | Capital Market Line with risk-free asset |
-| ![Tangency Portfolio](figures/Portafogli_con_tangente.png) | Weights of the tangency portfolio |
-| ![Constrained Frontiers](figures/Frontiere_vincolate.png) | Efficient frontiers with long-only constraints |
-| ![Covariance Heatmaps](figures/HeatMap_variance_mtx.png) | Sample vs shrinkage vs constant-correlation covariance |
-| ![CAPM vs SPX](figures/Price_Stocks_vs_SPX.png) | Relative price evolution vs S&P 500 |
-| ![Returns - Log vs Classic](figures/Total_and_Log_returns.png) | Comparison of log and classic returns |
-| ![Black-Litterman Allocations](figures/Portafolgi_diverse_MTX.png) | Portfolio allocation under different assumptions |
-| ![Black-Litterman Weights](figures/Pesi_Portafolgi_risk_free_vincolati.png) | Portfolio weights from Black-Litterman model |
+### Efficient Frontiers
+
+- `Frontiera_MK.png` – Mean-variance frontier with individual stocks.
+- `Frontiera_risk_free.png` – Efficient frontier with risk-free asset and Capital Market Line (CML).
+- `Frontiere_vincolate.png` – Efficient frontier with portfolio constraints.
+- `Frontiere_Risk Free_vincolate.png` – Constrained frontier with risk-free asset and CML.
+
+### Covariance Matrix & Estimation
+
+- `HeatMap_variance_mtx.png` – Heatmap of variance-covariance matrices (standard, constant correlation, shrinkage).
+
+### Portfolio Weights
+
+- `Pesi_Portafolgi_risk_free_vincolati.png` – Asset weights for constrained tangency portfolios.
+- `Portafogli risk free su frontiera.png` – Comparison of portfolios on the risk-free frontier.
+- `Portafolgi_diverse_MTX.png` – Portfolio weights under different covariance estimators.
+- `Portafogli_con_tangente.png` – Portfolio weights for tangency portfolios.
+
+### Return Analysis
+
+- `Rendimenti_classic_log.png` – Comparison of simple vs exponential mean returns.
+- `Total_and_Log returns.png` – Time series of total and log returns for selected stocks.
+- `Price Stocks vs SPX.png` – Normalized price comparison of selected stocks vs S&P 500.
+
+All figures are available in the [`figures/`](./figures/) directory.
 
 ## Data
 
